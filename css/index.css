@@ -3,14 +3,24 @@
     height: 50px;
 }
 
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    flex-direction: row-reverse;
+}
+
+.images-carousel {
+    height: 537px;
+}
+
 .section-card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 30px;
-    padding: 20px;
+    grid-gap: 15px;
+    padding: 5px;
 }
 .footer-custom {
-    margin-top: 400px;
+    margin-top: 10px;
     background-color:  rgba(136, 204, 91, 0.15);
     text-align: left;
     padding: 40px 20px;
